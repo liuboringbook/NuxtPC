@@ -307,6 +307,8 @@ import VHeader from '~/components/home/header'
 import VFooter from '~/components/home/footer'
 import VBanner from '~/components/home/banner'
 import IndexVideo from '~/components/home/indexVideo'
+import prodListShow from '~/components/common/prodListShow'
+import indexNewsListShow from '~/components/common/indexNewsListShow'
 export default {
     data(){
       return {
@@ -320,7 +322,9 @@ export default {
     VHeader,
     VFooter,
     VBanner,
-    IndexVideo
+    IndexVideo,
+    prodListShow,
+    indexNewsListShow
   },
       async asyncData({params,store}){
       //首页head信息
